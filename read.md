@@ -17,7 +17,7 @@ joiner
 
 Follow these steps to set up and run the project locally:
 
-1. Clone the repository: `git clone <repository_url>`
+1. Clone the repository: `git clone https://github.com/himani-pathak/Join-DataFrame.git`
 2. Change to the project directory: `cd project_directory`
 3. Install the required dependencies: `pip install -r requirements.txt`
 
