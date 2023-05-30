@@ -47,6 +47,7 @@ def join_dataframes():
         
         # Convert the resulting dataframe to JSON
         result_json = result.to_json(orient='records')
+        print(result_json)
         return result_json
 
     except Exception as e:
