@@ -43,7 +43,7 @@ def join_dataframes():
         joiner = Joiner(df1, df2,join_type,joining_keys)
         # Perform the left join operation using the join_dataframes method
         result = joiner.join_dataframes()
-        print(result)
+        
         
         # Convert the resulting dataframe to JSON
         result_json = result.to_json(orient='records')
