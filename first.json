@@ -1,0 +1,21 @@
+{
+    "df1": {
+      "data": [
+        {"Student_Id": "1001", "student_name": "Himani"},
+        {"Student_Id": "1002", "student_name": "shivani"}
+      ]
+    },
+    "df2": {
+      "data": [
+        {"Student_Id": "101", "student_class": "second"},
+        {"Student_Id": "103", "student_class": "third"}
+        
+      ]
+    },
+    "joinType": "leftJoin",
+    "joiningKeys": [
+      {"leftKey": "Student_Id", "rightKey": "Student_Id"}
+      
+    ]
+  }
+  
